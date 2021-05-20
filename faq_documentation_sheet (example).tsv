@@ -23,11 +23,11 @@ Language*	Swedish
 Dataset in numbers*	513 question-answer pairs; 50 categories; 3 sources; The number of QA pairs in a category strongly varies.
 Nature of the content*	Each QA pair belongs to a certain category (e.g. "Förälder :: Väntar barn :: Föräldrapenning innan barnet fötts :: Vanliga frågor"). Within each category, the answers are randomly shuffled. Importantly, the shuffling always occurs only within categories. This is necessary, since many questions cannot be interpreted without the background provided by the category (e.g. "Måste bilen registreras i mitt namn?" from the category "Förälder :: Om ditt barn har en funktions­nedsättning :: Bilstöd för barn :: Vanliga frågor"). Moreover, different categories can potentially contain similar questions ("Hur mycket pengar får jag?")  with different answers.
 Format*	Tab-separated, seven columns: 
-"category id" -- unique integer id of the category; 
-"source" -- the name of the authority from which the QAs were collected; 
-"category"; 
-"question"; 
-"candidate_answer" -- the answer that was obtained by the random shuffling (if the shuffling is rerun, the "candidate_answer" is likely to be different); 
+"category id" -- unique integer id of the category;
+"source" -- the name of the authority from which the QAs were collected;
+"category";
+"question";
+"candidate_answer" -- the answer that was obtained by the random shuffling (if the shuffling is rerun, the "candidate_answer" is likely to be different);
 "correct_answer" -- the original, correct answer that matches the question; "candidate_answer" may or may not be the same as "correct_answer".
 "link" -- the url of the page from which questions and answers were collected. In most cases, there is one link per category; some categories share the link.
 Data source(s)*	Websites of the Swedish Social Insurance Agency (Försäkringskassan; https://www.forsakringskassan.se/), the central national infrastructure for Swedish healthcare online (Vårdguiden, https://www.1177.se/), The Swedish Tax Agency (Skatteverket, https://skatteverket.se/). Specific links can be found in the dataset.
