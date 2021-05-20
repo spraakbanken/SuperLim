@@ -1,0 +1,56 @@
+The fields marked by * are obligatory. If they are not applicable, specify that explicitly. Starting from block III, if  full specification is too long to be provided in a field, refer to other documentation/publication. When you are ready, remove this line and the column headers from your sheet.		
+		
+Field	Value	Instruction
+		
+I. IDENTIFYING INFORMATION		
+Title*		Name version here
+Subtitle		
+Created by*		
+Publisher(s)*		
+Link(s) / permanent identifier(s)*		
+License(s)*		
+Abstract*		Summarize the most important things about the dataset in a few sentences. Decide yourself what should be mentioned in the abstract. Recommended: describe the data; the annotation (manual or not) and the dataset size.
+Funded by*		
+Cite as		List the publication(s) which should be cited when using the resource
+Related datasets		Use only for the most crucially related datasets (part of collection; derivative of another dataset). Other information can be provided under Related projects in Block VI.
+		
+II. USAGE		
+Key applications		
+Intended task(s)/usage(s)		
+Recommended evaluation measures		Use the same numbering as in Intended Task(s)/Usage(s)
+Dataset function(s)		
+Recommended split(s)		
+		
+III. DATA		
+Primary data*		Text, Speech, Images, Video etc
+Language*		
+Dataset in numbers*		
+Nature of the content*		
+Format*		
+Data source(s)*		If data was collected from subjects and/or through third party individuals, indicate form of compensation/consent mechanism/future control of subject over data. If dataset is a derived work, mention the sources here, in a way satisfies the licenses of the original work.  If a full specification is too long to give here, refer to other documentation/publication.
+Data collection method(s)*		If a full specification is too long to give here, refer to other documentation/publication.
+Data selection and filtering*		From the data you collected, how did you select/filter those that are included in the dataset? If there was no selection/filtering, say so. If a full specification is too long to give here, refer to other documentation/publication.
+Data preprocessing*		If a full specification is too long to give here, refer to other documentation/publication.
+Data labeling*		If you have multiple levels/types of annotation, name them all. For every level, say if the annotation is manual/gold or not, to what extent it can be trusted.
+Annotator characteristics		List those characteristics of the annotators that you think the users should know. They will probably vary depending on the nature of the dataset. Do not reveal any sensitive information, do not force annotators to reveal their names etc.
+		
+IV. ETHICS AND CAVEATS		
+Ethical considerations		Does the dataset contain information about individuals, sensitive information about individuals? Are any individuals identifiable (directly/indirectly)? Does it contain information about demographic groups? Has possible impact of the use of the data on individuals/groups been considered? Does the data contain offensive/threatening/triggering material. Was an ethical board involved at any point in the creation of the dataset?
+Things to watch out for		"Mention any ""counter-indications"", out of scope usage, (limiting) implications of selection/preprocessing/annotation for future use you are aware of."
+		
+V. ABOUT DOCUMENTATION		
+Data last updated*		Name the version
+Which changes have been made, compared to the previous version*		If a full specification is too long to give here, refer to other documentation/publication
+Access to previous versions		
+This document created*		Name is not obligatory
+This document last updated*		Name is not obligatory
+Where to look for further details		
+Documentation template version*		The version of the template for the documentation sheet. Currently: v1.0, approved at 2021-05-20 primarily for the SuperLim collection.
+		
+VI. OTHER		Add more fields here if necessary, but avoid that, if possible
+Related projects		List projects/datasets for which the relation was not crucial enough to warrant the mention in Related datasets (Block I)
+		
+References		"Use this field as bibliography if necessary. List publications / documents here and refer to them in a short way in the fields above.
+Try to use a somewhat unified way of writing your references. Suggestion:
+[Num] Names or Identifying key (Year): Title.  In or ∅ Publication title.  URL/DOI/HANDLE
+Adjust appropriately accoring to publication type."
