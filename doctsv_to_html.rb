@@ -28,7 +28,6 @@ f.each_line do |line|
 end
 
 o = File.open("#{ARGV[0].split(".")[0]}.html","w:utf-8")
-
 o.puts "<table style=\"width:100%\">"
 
 for i in 0..fields[0].length-1 
