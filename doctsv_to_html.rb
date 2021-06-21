@@ -1,4 +1,4 @@
-#Usage: ruby doctsv_to_html.rb lineend yourfile
+#Usage: ruby doctsv_to_html.rb yourfile lineend
 # lineend = "\n" (Unix) or "\r\n" (Windows) or "\r" (Mac)
 # yourfile = e.g. resource1_documentation_sheet.tsv. Must be in the same folder
 # output = resource1_documentation_sheet.html
